@@ -9,17 +9,17 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: () => import('../pages/Layout.vue'),
+      component: () => import('@pg/Layout.vue'),
       children: [
         {
           path: '/',
           name: 'home',
-          component: () => import('../pages/Home/Home.vue')
+          component: () => import('@pg/Home/Home.vue')
         },
         {
           path: '/about',
           name: 'about',
-          component: () => import('../pages/About/About.vue')
+          component: () => import('@pg/About/About.vue')
         },
       ]
     },
@@ -27,7 +27,7 @@ const router = createRouter({
     {
       path: "/:pathMatch(.*)*",
       name: "error",
-      component: () => import("../pages/Error/Error.vue")
+      component: () => import("@pg/Error/Error.vue")
     },
   ]
 })

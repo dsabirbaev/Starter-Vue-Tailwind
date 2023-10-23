@@ -3,8 +3,8 @@
 </template>
  
 <script setup>
-import Layout from "./pages/Layout.vue";
-  
+
+
 </script>
  
  
