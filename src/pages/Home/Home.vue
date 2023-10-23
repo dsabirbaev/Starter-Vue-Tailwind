@@ -7,12 +7,12 @@
         <div class="container mx-auto px-5">
             <h1>Home</h1>
         </div>
-    </section>    
+    </section>
 </template>
   
-  <script setup>
+<script setup>
 
-  </script>
+</script>
   
-  <style lang="scss" scoped></style>
+<style lang="scss" scoped></style>
   

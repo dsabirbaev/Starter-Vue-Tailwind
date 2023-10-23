@@ -3,7 +3,7 @@
 <template>
     <section>
         <div class="container mx-auto px-5">
-            <h1>About</h1>
+            <h1>Login</h1>
         </div>
     </section>
 </template>
@@ -13,4 +13,3 @@
 </script>
   
 <style lang="scss" scoped></style>
-  
