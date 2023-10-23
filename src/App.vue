@@ -1,15 +1,10 @@
 <template>
-  <Header />
-  <main>
-    main
-  </main>
-  <Footer />
+      <router-view></router-view>
 </template>
  
 <script setup>
-
-  import Header from "./components/Header/Header.vue";
-  import Footer from "./components/Footer/Footer.vue";
+import Layout from "./pages/Layout.vue";
+  
 </script>
  
  

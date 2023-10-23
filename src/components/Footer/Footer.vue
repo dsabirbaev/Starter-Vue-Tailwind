@@ -1,6 +1,6 @@
 <template>
     <footer>
-       <div class="container">
+       <div class="container mx-auto px-5">
             Footer
        </div>
     </footer>

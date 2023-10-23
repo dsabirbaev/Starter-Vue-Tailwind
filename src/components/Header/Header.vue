@@ -1,6 +1,6 @@
 <template>
     <header>
-     <div class="container">
+     <div class="container mx-auto px-5">
         Header
      </div>
     </header>
